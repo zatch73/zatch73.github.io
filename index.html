@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,33 +8,44 @@
     <title>Zatch73</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <div class="top-bar">
-        <div id="minimize"></div>
-        <div id="maximize"></div>
-        <div id="close"></div>
-    </div>
-    <!-- Coolors Palette Widget -->
-    
-    <div id="user_container">
-        <div id="user_photo_box">
-            <img src="https://github.com/zatch73.png" alt="" srcset="" id="user_photo_img">
+<div id="geral_container">
+    <div id="projets_container">
+        <h1>Projects</h1>
+        <div id="project_search_container">
+            <label for="project_search_input">
+                <input type="text" id="project_search_input" class="project_search_input_item">
+            </label>
+            <button class="project_search_input_item" id="project_search_button">Search</button>
         </div>
-        <div id="user_description_box">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae neque eum libero accusamus quaerat beatae veritatis, cumque alias ipsum numquam nam quisquam a aliquid suscipit explicabo velit. Perferendis, fugiat neque!
-            Incidunt sint voluptates commodi architecto repudiandae pariatur, totam cum sit! Facere dolores quae sapiente odit eaque eum inventore harum, ipsam tempore suscipit voluptatem vitae eos, atque amet iure doloribus corporis.
-            Voluptatem assumenda molestiae ipsum, impedit quae odit alias magni ipsa numquam aliquid reprehenderit! Ab odio ducimus vel, temporibus quae laudantium quasi et perferendis tenetur consequatur qui impedit iure voluptatum autem.
+        <div id="projets_box">
+            <div id="projects_buttons_container">
+                <button class="projects_buttons_container_item">Date cresc</button>
+                <button class="projects_buttons_container_item">Date desce</button>
+            </div>
+            <div class="project_box">
+                <h3 class="project_title">
+                    Project name
+                </h3>
+                <p class="project_description">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, aliquid dolorem! Libero nostrum
+                    ipsa reprehenderit, magni id iste dolorum? Facere ipsa ab, nam aut pariatur dicta modi illum magni
+                    asperiores.
+                </p>
+                <img src="https://pro-cdn.pixelmator.com/pro/2.4/artwork/img_workspace-illustration.jpg" alt="">
+                <div class="project_dates">
+                    <i>Date realease: 28/02/2024</i>
+                    <i>Last update: 28/02/2024</i>
+                </div>
+                <p>
+                    <a href="#">Link to Github repository</a>
+                </p>
+                <p>
+                    <a href="#">Link to deployment of application</a>
+                </p>
+            </div>
         </div>
     </div>
-    <div>
-        <br> <br> <br> <br>
-        <br> <br> <br> <br>
-        <br> <br> <br> <br>
-        <br> <br> <br> <br>
-        <br> <br> <br> <br>
-        <br> <br> <br> <br>
-        <script src="https://coolors.co/palette-widget/widget.js"></script>
-        <script data-id="05104688388733907">new CoolorsPaletteWidget("05104688388733907", ["1c1c1c","daddd8","ecebe4","eef0f2","fafaff"]); </script>
-    </div>
+</div>
 </body>
+
 </html>
