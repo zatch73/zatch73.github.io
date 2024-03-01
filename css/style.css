@@ -1,8 +1,10 @@
-html {
+html 
+{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body{
+body
+{
     padding: 0px;
     margin: 0px;
     display: flex;
@@ -12,4 +14,23 @@ body{
 #geral_container 
 {
     width: 75%;
+}
+
+#menu
+{
+    list-style: none;
+    display: flex;
+    border: 1px solid black;
+}
+
+#menu .menu_item
+{
+    margin: 10px 15px;
+}
+
+@media screen and (max-width: 768px) {
+    #geral_container 
+    {
+        width: 100%;
+    }
 }

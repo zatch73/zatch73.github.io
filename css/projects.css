@@ -23,6 +23,7 @@
 {
     display: flex;
     justify-content: end;
+    margin: 10px 0px;
 }
 #projects_container #projects_buttons_container .projects_buttons_container_item
 {
@@ -73,6 +74,7 @@
         display: flex;
         flex-direction: column;
         padding: 0px;
+        text-align: center;
     }
 
     #projects_container #projects_buttons_container .projects_buttons_container_item
