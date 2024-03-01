@@ -1,0 +1,2 @@
+git config --global user.name "zatch73"
+git config --global user.email marchiolimatheus@gmail.com

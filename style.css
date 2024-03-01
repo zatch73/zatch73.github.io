@@ -117,4 +117,9 @@ body{
         margin: 0px;
         padding: 0px;
     }
+
+    #projets_container #project_search_container #project_search_button
+    {
+        width: 100%;
+    }
 }
